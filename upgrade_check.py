@@ -279,8 +279,8 @@ def main():
         waf_mem()
         parent()
         gslb()
-    except:
-        print("An Exception Occured!")
+    except Exception as e:
+        print("Exception: ", e)
 
 if __name__ == "__main__":
     main()
